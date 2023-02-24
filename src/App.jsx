@@ -1,14 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-
+import Navbar from './component/Navbar'
 function App() {
 
   return (
-    <div className="App">
-        <h1 className="text-3xl font-bold underline decoration-sky-500">
-          Hello world!
-        </h1>
+    <div>
+       <Navbar />
     </div>
   )
 }
